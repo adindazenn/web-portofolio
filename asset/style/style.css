@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(238, 237, 237) !important;
+    width: 100%; 
+    height: 100%;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.profile {
+    display: flex; 
+    margin: 20px;
+    background-color: white;
+}
+
+.biodata {
+    margin: 20px; 
+}
+
+img.biodata {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.biodata button {
+    margin-top: 60px;
+}
+
+.table-bio {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    margin-left: 70px;
+}
+
+.table-bio p {
+    padding-left: 40px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+#form {
+    margin: 20px;
+    padding: 2px;
+    background-color: white;
+}
+
+#form-button {
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+    img.biodata {
+      width: 100px;
+      height: 100px;
+    }
+
+    .biodata button {
+        margin-top: 0;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biodata {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .table-bio {
+        margin-left: 0;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+      }
+}
